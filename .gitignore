@@ -1,0 +1,6 @@
+# Personal
+private/
+.env
+
+# Python
+**__pycache__/**
