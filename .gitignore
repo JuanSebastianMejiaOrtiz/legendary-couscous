@@ -1,6 +1,7 @@
 # Personal
 private/
 .env
+bin/
 
 # Python
-**__pycache__/**
+**/__pycache__/**
