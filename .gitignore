@@ -2,6 +2,7 @@
 private/
 .env
 bin/
+build/
 
 # Python
 **/__pycache__/**
