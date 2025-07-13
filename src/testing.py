@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 
 
-def plot(f, y0, a, b, n=100, method='forwardEuler'):
+def plot(f, y0, a, b, n=100, method='forwardEuler', objeto=""):
     t_eval = np.linspace(a, b, n)
     solutions = []
     for func in f:
@@ -23,7 +23,7 @@ def plot(f, y0, a, b, n=100, method='forwardEuler'):
     plt.ylabel("Ángulo (rad)")
     plt.legend()
     plt.grid()
-    plt.title(f"Método: {method}")
+    plt.title(f"{objeto} Método: {method}")
 
 
 def forwardEuler(f, y0, a, b, n=100):
@@ -39,3 +39,7 @@ def forwardEuler(f, y0, a, b, n=100):
         y[i + 1] = y[i] + h * np.array(f(t[i], y[i]))
 
     return t, y
+
+
+def gramsTokilograms(g):
+    return g / 1000
