@@ -1,10 +1,11 @@
 # Proyecto 4 Metodos Numericos, Solucion de Ecuaciones Diferenciales
 
-## Informacion importan
+## Informacion importante
 
 - Autor: Juan Sebastian Mejia Ortiz
 - Universidad de Antioquia
 - Link al cuaderno de google colab: https://colab.research.google.com/drive/182EqpUQ3QAy3obexD1JRWK5PE65Ei3V7?usp=sharing
+- Link al video de la presentacion: https://youtu.be/kNJp3nnVMmY
 
 ## Sobre el proyecto
 
